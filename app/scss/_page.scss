@@ -1,1 +1,127 @@
-﻿
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/fond.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: bold;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.fond-3 {
+    background-image: url(../images/fond-2.jpg);
+    background-size: cover;
+}
+
+header {
+    background-image: url(../images/fond-2.jpg);
+    background-size: cover;
+}
+
+.btn-danger {
+    background-color: #F2BF0C;
+    color: #000001;
+    border: none;
+
+    padding: 8px 32px;
+    
+    &:hover, &:focus {
+        background-color: #FFFA79;
+        color: #000001;
+        border: none;
+    }
+}
+
+.picto {
+    max-width: 50px;
+    padding: 4px;
+}
+
+.titre {
+    margin: auto;
+}
+
+.lien {
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+
+.tel-1 {
+    color: #0B1378;
+    font-weight: bold;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.block-1 {
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding: 32px 32px 0px 32px;
+    text-align: center;
+
+    h2 {
+        font-weight: bold;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+}
+
+.block-2 {
+    background-image: url(../images/cache_7415760.jpg);
+    color: #ffffff;
+    padding: 16px;
+    background-size: cover;
+}
+
+
+.regul {
+    background-color: #F2BF0C;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 32px auto 32px auto;
+    text-align: center;
+
+    h2 {
+        width: 100%;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.3em;
+        color: #000000;
+    }
+}
+
+.colelem {
+    width: 300px;
+    margin: auto;
+    padding: 8px;
+    display: block;
+
+    h5 {
+        width: 45%;
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.map h2 {
+    font-size: 1.2em;
+}

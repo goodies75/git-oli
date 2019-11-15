@@ -9,9 +9,10 @@ gulp.task('sass', function () {
         .pipe(sass()) // Using gulp-sass
         .pipe(gulp.dest('app/css'))
 });
-//
-//gulp.watch('files-to-watch', ['tasks', 'to', 'run']); 
-//gulp.task('watch', function () {
-  //  gulp.watch('app/scss/**/*.scss', ['sass']);
+
+
+gulp.watch('files-to-watch', ['tasks', 'to', 'run']); 
+gulp.task('watch', function () {
+gulp.watch('app/scss/base.scss', ['sass']);
     // Other watchers
-//})
+})
