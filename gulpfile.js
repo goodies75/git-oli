@@ -1,5 +1,4 @@
-﻿var gulp = require('gulp');
-//JS
+﻿//JS
 var gulp = require('gulp');
 // Requires the gulp-sass plugin
 var sass = require('gulp-sass');
@@ -11,8 +10,8 @@ gulp.task('sass', function () {
 });
 
 
-gulp.watch('files-to-watch', ['tasks', 'to', 'run']); 
-gulp.task('watch', function () {
-gulp.watch('app/scss/base.scss', ['sass']);
+// gulp.watch('files-to-watch', ['tasks', 'to', 'run']); 
+//gulp.task('watch', function () {
+//gulp.watch('app/scss/base.scss', ['sass']);
     // Other watchers
-})
+//})
